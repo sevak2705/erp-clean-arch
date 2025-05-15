@@ -1,0 +1,31 @@
+﻿@CleanArchitectureApp.Api_HostAddress = https://localhost:7104
+
+POST {{CleanArchitectureApp.Api_HostAddress}}/api/contacts/customer
+Content-Type: application/json
+
+{
+  "FirstName": "Jane",
+  "LastName": "Doe",
+  "Email": "jane.doe@example.com",
+  "PhoneNo": 9876543210,
+  "Address": "123 MG Road",
+  "City": "Bangalore",
+  "State": "Karnataka",
+  "ZipCode": "560001"
+
+}
+
+###
+
+POST {{CleanArchitectureApp.Api_HostAddress}}/api/contacts/customer
+Content-Type: application/json
+
+{
+  //CreateCustomerContactCommand
+}
+
+###
+
+GET {{CleanArchitectureApp.Api_HostAddress}}/api/contacts/customer
+
+###
