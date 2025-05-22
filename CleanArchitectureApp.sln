@@ -15,6 +15,30 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureApp.Api", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScripts", "DatabaseScripts", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schema", "Schema", "{293939A6-E3AE-411A-9959-7D63AA6E7B80}"
+	ProjectSection(SolutionItems) = preProject
+		01_create_customer_contacts_table.sql = 01_create_customer_contacts_table.sql
+		0_Create_Database.sql = 0_Create_Database.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Seeds", "Seeds", "{D2A17E9F-7154-4B3B-8797-3BC0D21BF32A}"
+	ProjectSection(SolutionItems) = preProject
+		01_seed_customercontacts.sql = 01_seed_customercontacts.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StoredProcedures", "StoredProcedures", "{5D53D7C3-2F8D-41FD-97DF-C4FFA0D9EE3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{52FCA54A-5121-48D8-9245-FE89A6F216DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{63FA35CA-5743-4374-8AA0-7A7AF8CB1C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureApp.Application.UnitTests", "CleanArchitectureApp.Application.UnitTests\CleanArchitectureApp.Application.UnitTests.csproj", "{F3659D13-5699-4A0B-A49F-41EBC074D017}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +97,18 @@ Global
 		{127C7FC4-634C-448B-BBFB-9247B37C8999}.Release|x64.Build.0 = Release|Any CPU
 		{127C7FC4-634C-448B-BBFB-9247B37C8999}.Release|x86.ActiveCfg = Release|Any CPU
 		{127C7FC4-634C-448B-BBFB-9247B37C8999}.Release|x86.Build.0 = Release|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Debug|x64.Build.0 = Debug|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Debug|x86.Build.0 = Debug|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Release|x64.ActiveCfg = Release|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Release|x64.Build.0 = Release|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Release|x86.ActiveCfg = Release|Any CPU
+		{F3659D13-5699-4A0B-A49F-41EBC074D017}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +118,11 @@ Global
 		{B16A1634-780A-444A-94FF-3745775EAF88} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{910F95D0-E5D3-4486-A008-389BB8D2D310} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{127C7FC4-634C-448B-BBFB-9247B37C8999} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{293939A6-E3AE-411A-9959-7D63AA6E7B80} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D2A17E9F-7154-4B3B-8797-3BC0D21BF32A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5D53D7C3-2F8D-41FD-97DF-C4FFA0D9EE3D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{52FCA54A-5121-48D8-9245-FE89A6F216DE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F3659D13-5699-4A0B-A49F-41EBC074D017} = {63FA35CA-5743-4374-8AA0-7A7AF8CB1C50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D2C6B2CF-E18E-4054-8217-5B72B71B489F}

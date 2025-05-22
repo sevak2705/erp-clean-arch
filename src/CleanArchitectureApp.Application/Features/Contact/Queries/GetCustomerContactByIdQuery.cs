@@ -8,5 +8,4 @@ using MediatR;
 namespace CleanArchitectureApp.Application.Features.Contact.Queries
 {
     public record GetCustomerContactByIdQuery(int Id) : IRequest<CustomerContactDto>;
-
 }

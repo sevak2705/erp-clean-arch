@@ -10,16 +10,25 @@ using MediatR;
 
 namespace CleanArchitectureApp.Application.Features.Contact.Handlers
 {
-    public class GetCustomerContactQueryHandler : IRequestHandler<GetCustomerContactQuery, List<CustomerContactDto>>
+    public class GetCustomerContactQueryHandler
+        : IRequestHandler<GetCustomerContactQuery, List<CustomerContactDto>>
     {
         private readonly ICustomerContactRepository _customerContactRepository;
         private readonly IMapper _mapper;
-        public GetCustomerContactQueryHandler(ICustomerContactRepository customerContactRepository, IMapper mapper)
+
+        public GetCustomerContactQueryHandler(
+            ICustomerContactRepository customerContactRepository,
+            IMapper mapper
+        )
         {
             _customerContactRepository = customerContactRepository;
             _mapper = mapper;
         }
-        public async Task<List<CustomerContactDto>> Handle(GetCustomerContactQuery request, CancellationToken cancellationToken)
+
+        public async Task<List<CustomerContactDto>> Handle(
+            GetCustomerContactQuery request,
+            CancellationToken cancellationToken
+        )
         {
             // Query DB
             var customerContact = await _customerContactRepository.GetAsync();
@@ -31,5 +40,4 @@ namespace CleanArchitectureApp.Application.Features.Contact.Handlers
             return response;
         }
     }
-
 }

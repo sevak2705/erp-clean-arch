@@ -10,9 +10,9 @@ namespace CleanArchitectureApp.Infrastructure.DatabaseContext
 {
     public class ErpDatabaseContext : DbContext
     {
-        public ErpDatabaseContext(DbContextOptions<ErpDatabaseContext> options) : base(options)
-        {
-        }
+        public ErpDatabaseContext(DbContextOptions<ErpDatabaseContext> options)
+            : base(options) { }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ErpDatabaseContext).Assembly);
@@ -21,10 +21,13 @@ namespace CleanArchitectureApp.Infrastructure.DatabaseContext
 
         public DbSet<Domain.Entities.CustomerContact> CustomerContacts { get; set; }
 
-        public override Task<int> SaveChangesAsync( CancellationToken cancellationToken = default)
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
-            foreach (var entry in base.ChangeTracker.Entries<CommonEntity>()
-                .Where(q=>q.State == EntityState.Added || q.State == EntityState.Modified))
+            foreach (
+                var entry in base
+                    .ChangeTracker.Entries<CommonEntity>()
+                    .Where(q => q.State == EntityState.Added || q.State == EntityState.Modified)
+            )
             {
                 entry.Entity.UpdatedDate = DateTime.Now;
                 entry.Entity.UpdatedDateUtc = DateTime.UtcNow;
@@ -34,10 +37,8 @@ namespace CleanArchitectureApp.Infrastructure.DatabaseContext
                     entry.Entity.CreatedDate = DateTime.Now;
                     entry.Entity.CreatedDateUtc = DateTime.UtcNow;
                 }
-
             }
             return base.SaveChangesAsync(cancellationToken);
         }
     }
-
 }

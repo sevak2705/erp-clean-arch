@@ -7,12 +7,12 @@ using CleanArchitectureApp.Domain.Entities;
 
 namespace CleanArchitectureApp.Application.Interfaces
 {
-    public interface ICustomerContactRepository : IGenericRepository<Domain.Entities.CustomerContact>
+    public interface ICustomerContactRepository
+        : IGenericRepository<Domain.Entities.CustomerContact>
     {
         // Add any additional methods specific to CustomerContact if needed
         // For example:
         // Task<IEnumerable<CustomerContact>> GetContactsByStatusAsync(bool status);
-         Task<CustomerContact> GetContactByPhoneAsync(long phoneNo);
+        Task<CustomerContact> GetContactByPhoneAsync(long phoneNo);
     }
-
 }

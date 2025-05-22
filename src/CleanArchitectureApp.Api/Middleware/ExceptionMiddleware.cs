@@ -1,7 +1,7 @@
-﻿using CleanArchitectureApp.Api.Helper;
+﻿using System.Net;
+using CleanArchitectureApp.Api.Helper;
 using CleanArchitectureApp.Application.Exceptions;
 using Newtonsoft.Json;
-using System.Net;
 
 namespace CleanArchitectureApp.Api.Middleware
 {
@@ -43,7 +43,7 @@ namespace CleanArchitectureApp.Api.Middleware
                         Status = (int)statusCode,
                         Detail = badRequestException.InnerException?.Message,
                         Type = nameof(BadRequestException),
-                        Errors = badRequestException.ValidationErrors
+                        Errors = badRequestException.ValidationErrors,
                     };
                     break;
                 case NotFoundException NotFound:
@@ -71,7 +71,6 @@ namespace CleanArchitectureApp.Api.Middleware
             var logMessage = JsonConvert.SerializeObject(problem);
             _logger.LogError(logMessage);
             await httpContext.Response.WriteAsJsonAsync(problem);
-
         }
     }
 }

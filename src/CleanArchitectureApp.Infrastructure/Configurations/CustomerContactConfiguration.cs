@@ -8,21 +8,20 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace CleanArchitectureApp.Infrastructure.Configurations
 {
-    public class CustomerContactConfiguration : IEntityTypeConfiguration<Domain.Entities.CustomerContact>
+    public class CustomerContactConfiguration
+        : IEntityTypeConfiguration<Domain.Entities.CustomerContact>
     {
         public void Configure(EntityTypeBuilder<Domain.Entities.CustomerContact> builder)
         {
             builder.ToTable("CustomerContacts");
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.FirstName)
-                .IsRequired()
-                .HasMaxLength(20);
+            builder.Property(x => x.FirstName).IsRequired().HasMaxLength(20);
 
-            builder.HasIndex(x => x.PhoneNo)
-             .IsUnique()
-             .HasDatabaseName("UX_CustomerContacts_PhoneNo");
-
+            builder
+                .HasIndex(x => x.PhoneNo)
+                .IsUnique()
+                .HasDatabaseName("UX_CustomerContacts_PhoneNo");
         }
     }
 }

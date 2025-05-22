@@ -15,9 +15,14 @@ namespace CleanArchitectureApp.Infrastructure.Migrations
                 name: "CustomerContacts",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    Id = table
+                        .Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FirstName = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    FirstName = table.Column<string>(
+                        type: "nvarchar(20)",
+                        maxLength: 20,
+                        nullable: false
+                    ),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PhoneNo = table.Column<long>(type: "bigint", nullable: true),
                     WhatsAppNo = table.Column<long>(type: "bigint", nullable: true),
@@ -31,19 +36,19 @@ namespace CleanArchitectureApp.Infrastructure.Migrations
                     UpdatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     UpdatedDateUtc = table.Column<DateTime>(type: "datetime2", nullable: true),
                     CreatedBy = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UpdatedBy = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    UpdatedBy = table.Column<string>(type: "nvarchar(max)", nullable: false),
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_CustomerContacts", x => x.Id);
-                });
+                }
+            );
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "CustomerContacts");
+            migrationBuilder.DropTable(name: "CustomerContacts");
         }
     }
 }
