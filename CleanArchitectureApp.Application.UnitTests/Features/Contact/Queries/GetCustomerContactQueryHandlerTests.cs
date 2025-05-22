@@ -41,9 +41,6 @@ namespace CleanArchitectureApp.Application.UnitTests.Features.Contact.Queries
             result.ShouldBeOfType<List<CustomerContactDto>>();
             result.Count.ShouldBe(2);
             // Assuming there are 2 contacts in the mock repository
-            //  Assert.NotNull(result);
-            //  Assert.IsType<List<CustomerContactDto>>(result);
-            //  Assert.Equal(2, result.Count); // Assuming there are 2 contacts in the mock repository
         }
     }
 }
