@@ -14,21 +14,14 @@ namespace CleanArchitectureApp.Application.MappingProfiles
     {
         public CustomerContactProfile()
         {
-             CreateMap<CustomerContact, CustomerContactDto>().ReverseMap();
-
-
+            CreateMap<CustomerContact, CustomerContactDto>().ReverseMap();
 
             CreateMap<CreateCustomerContactCommand, CustomerContact>();
             // CreateMap<Application.DTOs.CustomerContactDto, Domain.Entities.CustomerContact>();
             // Add any additional mappings here
 
-
             CreateMap<UpdateCustomerContactCommand, CustomerContact>()
-          .ForAllMembers(opt =>
-             opt.Condition((src, dest, srcMember) => srcMember != null)
-          );
-
+                .ForAllMembers(opt => opt.Condition((src, dest, srcMember) => srcMember != null));
         }
     }
-
 }

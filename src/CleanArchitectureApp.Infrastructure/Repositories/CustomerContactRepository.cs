@@ -10,21 +10,23 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitectureApp.Infrastructure.Repositories
 {
-    public class CustomerContactRepository : GenericRepository<CustomerContact>, ICustomerContactRepository
+    public class CustomerContactRepository
+        : GenericRepository<CustomerContact>,
+            ICustomerContactRepository
     {
-        public CustomerContactRepository(ErpDatabaseContext context) : base(context)
-        {
-
-        }
+        public CustomerContactRepository(ErpDatabaseContext context)
+            : base(context) { }
 
         public async Task<CustomerContact> GetContactByPhoneAsync(long phoneNo)
         {
-            var res = await _context.CustomerContacts.FirstOrDefaultAsync(a => a.PhoneNo == phoneNo);
+            var res = await _context.CustomerContacts.FirstOrDefaultAsync(a =>
+                a.PhoneNo == phoneNo
+            );
             if (res == null)
             {
                 return new CustomerContact
                 {
-                    FirstName = string.Empty // Set the required property to avoid CS9035
+                    FirstName = string.Empty, // Set the required property to avoid CS9035
                 };
             }
             else

@@ -10,10 +10,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitectureApp.Infrastructure.Repositories
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : CommonEntity
+    public class GenericRepository<T> : IGenericRepository<T>
+        where T : CommonEntity
     {
         // Assuming you have a DbContext or similar data context to interact with the database
         protected readonly ErpDatabaseContext _context;
+
         public GenericRepository(ErpDatabaseContext context)
         {
             _context = context;
@@ -27,22 +29,18 @@ namespace CleanArchitectureApp.Infrastructure.Repositories
 
         public async Task DeleteAsync(T entity)
         {
-             _context.Remove(entity);
+            _context.Remove(entity);
             await _context.SaveChangesAsync();
-                            
         }
 
         public async Task<IReadOnlyList<T>> GetAsync()
         {
-           return await _context.Set<T>().AsNoTracking().ToListAsync();
-
+            return await _context.Set<T>().AsNoTracking().ToListAsync();
         }
 
         public async Task<T> GetByIdAsync(int id)
         {
-            return await _context.Set<T>()
-                .AsNoTracking()
-                .FirstOrDefaultAsync(a=> a.Id == id);
+            return await _context.Set<T>().AsNoTracking().FirstOrDefaultAsync(a => a.Id == id);
         }
 
         public async Task UpdateAsync(T entity)

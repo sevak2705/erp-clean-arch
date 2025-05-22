@@ -11,49 +11,50 @@ namespace CleanArchitectureApp.Api.Controllers
     [ApiController]
     public class ContactsController : ControllerBase
     {
-        public ILogger<ContactsController> logger { get; set; }
-        public IMediator mediator { get; set; }
+        private readonly ILogger<ContactsController> _logger;
+        private readonly IMediator _mediator;
+
         public ContactsController(ILogger<ContactsController> logger, IMediator mediator)
         {
-            this.logger = logger;
-            this.mediator = mediator;
-                
+            this._logger = logger;
+            this._mediator = mediator;
         }
+
         [HttpGet("customer")]
         public async Task<List<CustomerContactDto>> Get()
         {
-            var req = await mediator.Send(new GetCustomerContactQuery());
+            var req = await _mediator.Send(new GetCustomerContactQuery());
             return req;
-
-
         }
+
         [HttpGet("customer/{id}")]
         public async Task<ActionResult<CustomerContactDto>> GetCustomerContactById(int id)
         {
-            var req = await mediator.Send(new GetCustomerContactByIdQuery(id));
+            var req = await _mediator.Send(new GetCustomerContactByIdQuery(id));
             return Ok(req);
-
         }
+
         [HttpPost("customer")]
         public async Task<IActionResult> Create([FromBody] CreateCustomerContactCommand command)
         {
-            await mediator.Send(command);
+            await _mediator.Send(command);
             // Handler returns Unit, so we simply return 204 No Content
             return NoContent();
         }
 
         [HttpPut("customer/{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] UpdateCustomerContactCommand command)
+        public async Task<IActionResult> Update(
+            int id,
+            [FromBody] UpdateCustomerContactCommand command
+        )
         {
             // Ensure the route-id matches the payload
             if (id != command.Id)
                 return BadRequest("Route id and command id must match.");
 
-            await mediator.Send(command);
+            await _mediator.Send(command);
             // Handler returns Unit, so we simply return 204 No Content
             return NoContent();
         }
-
-
     }
 }

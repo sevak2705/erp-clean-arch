@@ -15,7 +15,8 @@ namespace CleanArchitectureApp.Infrastructure.Migrations
                 table: "CustomerContacts",
                 column: "PhoneNo",
                 unique: true,
-                filter: "[PhoneNo] IS NOT NULL");
+                filter: "[PhoneNo] IS NOT NULL"
+            );
         }
 
         /// <inheritdoc />
@@ -23,7 +24,8 @@ namespace CleanArchitectureApp.Infrastructure.Migrations
         {
             migrationBuilder.DropIndex(
                 name: "UX_CustomerContacts_PhoneNo",
-                table: "CustomerContacts");
+                table: "CustomerContacts"
+            );
         }
     }
 }
