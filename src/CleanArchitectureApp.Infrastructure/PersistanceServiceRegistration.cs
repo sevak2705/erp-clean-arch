@@ -13,9 +13,6 @@ public static class PersistanceServiceRegistration
         IConfiguration configuration
     )
     {
-        //services.AddDbContext<DatabaseContext.ErpDatabaseContext>(options =>
-        //    options.UseSqlServer("Server=localhost;Database=ErpDb;User Id=sa;Password=yourStrong(!)Password;TrustServerCertificate=True;"));
-
         services.AddDbContext<DatabaseContext.ErpDatabaseContext>(options =>
             options.UseSqlServer(
                 configuration.GetConnectionString("ErpDBConnectionString"),

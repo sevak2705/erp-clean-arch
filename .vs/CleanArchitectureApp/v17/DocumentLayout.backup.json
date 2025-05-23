@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3659D13-5699-4A0B-A49F-41EBC074D017}|CleanArchitectureApp.Application.UnitTests\\CleanArchitectureApp.Application.UnitTests.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\cleanarchitectureapp.application.unittests\\features\\contact\\queries\\getcustomercontactqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3659D13-5699-4A0B-A49F-41EBC074D017}|CleanArchitectureApp.Application.UnitTests\\CleanArchitectureApp.Application.UnitTests.csproj|solutionrelative:cleanarchitectureapp.application.unittests\\features\\contact\\queries\\getcustomercontactqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{347215BA-3D16-447C-827B-FAA5AC842B5A}|CleanArchitectureApp.Infrastructure.IntegrationTests\\CleanArchitectureApp.Infrastructure.IntegrationTests.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\cleanarchitectureapp.infrastructure.integrationtests\\erpdbcontexttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347215BA-3D16-447C-827B-FAA5AC842B5A}|CleanArchitectureApp.Infrastructure.IntegrationTests\\CleanArchitectureApp.Infrastructure.IntegrationTests.csproj|solutionrelative:cleanarchitectureapp.infrastructure.integrationtests\\erpdbcontexttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3659D13-5699-4A0B-A49F-41EBC074D017}|CleanArchitectureApp.Application.UnitTests\\CleanArchitectureApp.Application.UnitTests.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\cleanarchitectureapp.application.unittests\\mocks\\mockcustomercontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3659D13-5699-4A0B-A49F-41EBC074D017}|CleanArchitectureApp.Application.UnitTests\\CleanArchitectureApp.Application.UnitTests.csproj|solutionrelative:cleanarchitectureapp.application.unittests\\mocks\\mockcustomercontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{910F95D0-E5D3-4486-A008-389BB8D2D310}|src\\CleanArchitectureApp.Infrastructure\\CleanArchitectureApp.Infrastructure.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\src\\cleanarchitectureapp.infrastructure\\databasecontext\\erpdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910F95D0-E5D3-4486-A008-389BB8D2D310}|src\\CleanArchitectureApp.Infrastructure\\CleanArchitectureApp.Infrastructure.csproj|solutionrelative:src\\cleanarchitectureapp.infrastructure\\databasecontext\\erpdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347215BA-3D16-447C-827B-FAA5AC842B5A}|CleanArchitectureApp.Infrastructure.IntegrationTests\\CleanArchitectureApp.Infrastructure.IntegrationTests.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\cleanarchitectureapp.infrastructure.integrationtests\\cleanarchitectureapp.infrastructure.integrationtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{347215BA-3D16-447C-827B-FAA5AC842B5A}|CleanArchitectureApp.Infrastructure.IntegrationTests\\CleanArchitectureApp.Infrastructure.IntegrationTests.csproj|solutionrelative:cleanarchitectureapp.infrastructure.integrationtests\\cleanarchitectureapp.infrastructure.integrationtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{910F95D0-E5D3-4486-A008-389BB8D2D310}|src\\CleanArchitectureApp.Infrastructure\\CleanArchitectureApp.Infrastructure.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\src\\cleanarchitectureapp.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{910F95D0-E5D3-4486-A008-389BB8D2D310}|src\\CleanArchitectureApp.Infrastructure\\CleanArchitectureApp.Infrastructure.csproj|solutionrelative:src\\cleanarchitectureapp.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16A1634-780A-444A-94FF-3745775EAF88}|src\\CleanArchitectureApp.Application\\CleanArchitectureApp.Application.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\src\\cleanarchitectureapp.application\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16A1634-780A-444A-94FF-3745775EAF88}|src\\CleanArchitectureApp.Application\\CleanArchitectureApp.Application.csproj|solutionrelative:src\\cleanarchitectureapp.application\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3659D13-5699-4A0B-A49F-41EBC074D017}|CleanArchitectureApp.Application.UnitTests\\CleanArchitectureApp.Application.UnitTests.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\cleanarchitectureapp.application.unittests\\features\\contact\\queries\\getcustomercontactqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3659D13-5699-4A0B-A49F-41EBC074D017}|CleanArchitectureApp.Application.UnitTests\\CleanArchitectureApp.Application.UnitTests.csproj|solutionrelative:cleanarchitectureapp.application.unittests\\features\\contact\\queries\\getcustomercontactqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910F95D0-E5D3-4486-A008-389BB8D2D310}|src\\CleanArchitectureApp.Infrastructure\\CleanArchitectureApp.Infrastructure.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\src\\cleanarchitectureapp.infrastructure\\persistanceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910F95D0-E5D3-4486-A008-389BB8D2D310}|src\\CleanArchitectureApp.Infrastructure\\CleanArchitectureApp.Infrastructure.csproj|solutionrelative:src\\cleanarchitectureapp.infrastructure\\persistanceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{127C7FC4-634C-448B-BBFB-9247B37C8999}|src\\CleanArchitectureApp.Api\\CleanArchitectureApp.Api.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\src\\cleanarchitectureapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{127C7FC4-634C-448B-BBFB-9247B37C8999}|src\\CleanArchitectureApp.Api\\CleanArchitectureApp.Api.csproj|solutionrelative:src\\cleanarchitectureapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{127C7FC4-634C-448B-BBFB-9247B37C8999}|src\\CleanArchitectureApp.Api\\CleanArchitectureApp.Api.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\src\\cleanarchitectureapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{127C7FC4-634C-448B-BBFB-9247B37C8999}|src\\CleanArchitectureApp.Api\\CleanArchitectureApp.Api.csproj|solutionrelative:src\\cleanarchitectureapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B16A1634-780A-444A-94FF-3745775EAF88}|src\\CleanArchitectureApp.Application\\CleanArchitectureApp.Application.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\src\\cleanarchitectureapp.application\\features\\contact\\handlers\\createcustomercontactcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,28 +51,12 @@
       "RelativeMoniker": "D:0:0:{910F95D0-E5D3-4486-A008-389BB8D2D310}|src\\CleanArchitectureApp.Infrastructure\\CleanArchitectureApp.Infrastructure.csproj|solutionrelative:src\\cleanarchitectureapp.infrastructure\\migrations\\20250501145106_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\shwet\\Source\\Repos\\erp-clean-arch\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{127C7FC4-634C-448B-BBFB-9247B37C8999}|src\\CleanArchitectureApp.Api\\CleanArchitectureApp.Api.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\src\\cleanarchitectureapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{127C7FC4-634C-448B-BBFB-9247B37C8999}|src\\CleanArchitectureApp.Api\\CleanArchitectureApp.Api.csproj|solutionrelative:src\\cleanarchitectureapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{910F95D0-E5D3-4486-A008-389BB8D2D310}|src\\CleanArchitectureApp.Infrastructure\\CleanArchitectureApp.Infrastructure.csproj|c:\\users\\shwet\\source\\repos\\erp-clean-arch\\src\\cleanarchitectureapp.infrastructure\\migrations\\erpdatabasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{910F95D0-E5D3-4486-A008-389BB8D2D310}|src\\CleanArchitectureApp.Infrastructure\\CleanArchitectureApp.Infrastructure.csproj|solutionrelative:src\\cleanarchitectureapp.infrastructure\\migrations\\erpdatabasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2A17E9F-7154-4B3B-8797-3BC0D21BF32A}|Seeds{D2A17E9F-7154-4B3B-8797-3BC0D21BF32A}|C:\\Users\\shwet\\Source\\Repos\\erp-clean-arch\\01_seed_customercontacts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D2A17E9F-7154-4B3B-8797-3BC0D21BF32A}|Seeds{D2A17E9F-7154-4B3B-8797-3BC0D21BF32A}|solutionrelative:01_seed_customercontacts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{293939A6-E3AE-411A-9959-7D63AA6E7B80}|Schema{293939A6-E3AE-411A-9959-7D63AA6E7B80}|C:\\Users\\shwet\\Source\\Repos\\erp-clean-arch\\0_Create_Database.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{293939A6-E3AE-411A-9959-7D63AA6E7B80}|Schema{293939A6-E3AE-411A-9959-7D63AA6E7B80}|solutionrelative:0_Create_Database.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{293939A6-E3AE-411A-9959-7D63AA6E7B80}|Schema{293939A6-E3AE-411A-9959-7D63AA6E7B80}|C:\\Users\\shwet\\Source\\Repos\\erp-clean-arch\\01_create_customer_contacts_table.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{293939A6-E3AE-411A-9959-7D63AA6E7B80}|Schema{293939A6-E3AE-411A-9959-7D63AA6E7B80}|solutionrelative:01_create_customer_contacts_table.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\shwet\\Source\\Repos\\erp-clean-arch\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,93 +66,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetCustomerContactQueryHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\CleanArchitectureApp.Application.UnitTests\\Features\\Contact\\Queries\\GetCustomerContactQueryHandlerTests.cs",
-              "RelativeDocumentMoniker": "CleanArchitectureApp.Application.UnitTests\\Features\\Contact\\Queries\\GetCustomerContactQueryHandlerTests.cs",
-              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\CleanArchitectureApp.Application.UnitTests\\Features\\Contact\\Queries\\GetCustomerContactQueryHandlerTests.cs",
-              "RelativeToolTip": "CleanArchitectureApp.Application.UnitTests\\Features\\Contact\\Queries\\GetCustomerContactQueryHandlerTests.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAABZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ErpDatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Infrastructure\\DatabaseContext\\ErpDatabaseContext.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Infrastructure\\DatabaseContext\\ErpDatabaseContext.cs",
+              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Infrastructure\\DatabaseContext\\ErpDatabaseContext.cs",
+              "RelativeToolTip": "src\\CleanArchitectureApp.Infrastructure\\DatabaseContext\\ErpDatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T23:44:35.726Z",
+              "WhenOpened": "2025-05-22T22:24:38.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Application\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Application\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Application\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "src\\CleanArchitectureApp.Application\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:21:50.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CleanArchitectureApp.Infrastructure.IntegrationTests",
+              "DocumentMoniker": "C:\\Users\\shwet\\Source\\Repos\\erp-clean-arch\\CleanArchitectureApp.Infrastructure.IntegrationTests\\CleanArchitectureApp.Infrastructure.IntegrationTests.csproj",
+              "RelativeDocumentMoniker": "CleanArchitectureApp.Infrastructure.IntegrationTests\\CleanArchitectureApp.Infrastructure.IntegrationTests.csproj",
+              "ToolTip": "C:\\Users\\shwet\\Source\\Repos\\erp-clean-arch\\CleanArchitectureApp.Infrastructure.IntegrationTests\\CleanArchitectureApp.Infrastructure.IntegrationTests.csproj",
+              "RelativeToolTip": "CleanArchitectureApp.Infrastructure.IntegrationTests\\CleanArchitectureApp.Infrastructure.IntegrationTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-22T22:20:52.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ErpDBContextTests.cs",
+              "DocumentMoniker": "C:\\Users\\shwet\\Source\\Repos\\erp-clean-arch\\CleanArchitectureApp.Infrastructure.IntegrationTests\\ErpDBContextTests.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureApp.Infrastructure.IntegrationTests\\ErpDBContextTests.cs",
+              "ToolTip": "C:\\Users\\shwet\\Source\\Repos\\erp-clean-arch\\CleanArchitectureApp.Infrastructure.IntegrationTests\\ErpDBContextTests.cs",
+              "RelativeToolTip": "CleanArchitectureApp.Infrastructure.IntegrationTests\\ErpDBContextTests.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:19:27.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetCustomerContactQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\CleanArchitectureApp.Application.UnitTests\\Features\\Contact\\Queries\\GetCustomerContactQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureApp.Application.UnitTests\\Features\\Contact\\Queries\\GetCustomerContactQueryHandlerTests.cs",
+              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\CleanArchitectureApp.Application.UnitTests\\Features\\Contact\\Queries\\GetCustomerContactQueryHandlerTests.cs",
+              "RelativeToolTip": "CleanArchitectureApp.Application.UnitTests\\Features\\Contact\\Queries\\GetCustomerContactQueryHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAWwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:06:20.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Infrastructure\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Infrastructure\\Repositories\\GenericRepository.cs",
               "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Infrastructure\\Repositories\\GenericRepository.cs",
               "RelativeToolTip": "src\\CleanArchitectureApp.Infrastructure\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAjwCoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAEwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:46:44.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MockCustomerContactRepository.cs",
-              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\CleanArchitectureApp.Application.UnitTests\\Mocks\\MockCustomerContactRepository.cs",
-              "RelativeDocumentMoniker": "CleanArchitectureApp.Application.UnitTests\\Mocks\\MockCustomerContactRepository.cs",
-              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\CleanArchitectureApp.Application.UnitTests\\Mocks\\MockCustomerContactRepository.cs",
-              "RelativeToolTip": "CleanArchitectureApp.Application.UnitTests\\Mocks\\MockCustomerContactRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAC8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T23:25:44.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateCustomerContactCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Application\\Features\\Contact\\Handlers\\CreateCustomerContactCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Application\\Features\\Contact\\Handlers\\CreateCustomerContactCommandHandler.cs",
-              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Application\\Features\\Contact\\Handlers\\CreateCustomerContactCommandHandler.cs",
-              "RelativeToolTip": "src\\CleanArchitectureApp.Application\\Features\\Contact\\Handlers\\CreateCustomerContactCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T23:24:56.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "01_seed_customercontacts.sql",
-              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\01_seed_customercontacts.sql",
-              "RelativeDocumentMoniker": "01_seed_customercontacts.sql",
-              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\01_seed_customercontacts.sql",
-              "RelativeToolTip": "01_seed_customercontacts.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-16T23:31:02.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "0_Create_Database.sql",
-              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\0_Create_Database.sql",
-              "RelativeDocumentMoniker": "0_Create_Database.sql",
-              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\0_Create_Database.sql",
-              "RelativeToolTip": "0_Create_Database.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-16T23:12:51.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "01_create_customer_contacts_table.sql",
-              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\01_create_customer_contacts_table.sql",
-              "RelativeDocumentMoniker": "01_create_customer_contacts_table.sql",
-              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\01_create_customer_contacts_table.sql",
-              "RelativeToolTip": "01_create_customer_contacts_table.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-16T22:59:10.424Z"
+              "WhenOpened": "2025-05-16T06:46:44.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "PersistanceServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Infrastructure\\PersistanceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Infrastructure\\PersistanceServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Infrastructure\\PersistanceServiceRegistration.cs",
+              "RelativeToolTip": "src\\CleanArchitectureApp.Infrastructure\\PersistanceServiceRegistration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIA4wA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:43:04.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Api\\Program.cs",
+              "RelativeToolTip": "src\\CleanArchitectureApp.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:42:32.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -152,23 +182,51 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-16T07:07:18.029Z"
+              "WhenOpened": "2025-05-16T07:07:18.029Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Api\\appsettings.json",
+              "RelativeToolTip": "src\\CleanArchitectureApp.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T06:59:06.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateCustomerContactCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Application\\Features\\Contact\\Handlers\\CreateCustomerContactCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Application\\Features\\Contact\\Handlers\\CreateCustomerContactCommandHandler.cs",
+              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Application\\Features\\Contact\\Handlers\\CreateCustomerContactCommandHandler.cs",
+              "RelativeToolTip": "src\\CleanArchitectureApp.Application\\Features\\Contact\\Handlers\\CreateCustomerContactCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T23:24:56.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "20250501145106_InitialMigration.cs",
               "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Infrastructure\\Migrations\\20250501145106_InitialMigration.cs",
               "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Infrastructure\\Migrations\\20250501145106_InitialMigration.cs",
               "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Infrastructure\\Migrations\\20250501145106_InitialMigration.cs",
               "RelativeToolTip": "src\\CleanArchitectureApp.Infrastructure\\Migrations\\20250501145106_InitialMigration.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwCcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:05:44.438Z"
+              "WhenOpened": "2025-05-16T07:05:44.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "20250502155055_InitialMigration1.cs",
               "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Infrastructure\\Migrations\\20250502155055_InitialMigration1.cs",
               "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Infrastructure\\Migrations\\20250502155055_InitialMigration1.cs",
@@ -176,23 +234,12 @@
               "RelativeToolTip": "src\\CleanArchitectureApp.Infrastructure\\Migrations\\20250502155055_InitialMigration1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:05:34.086Z"
+              "WhenOpened": "2025-05-16T07:05:34.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Api\\appsettings.json",
-              "RelativeToolTip": "src\\CleanArchitectureApp.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-16T06:59:06.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "ErpDatabaseContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\shwet\\source\\repos\\erp-clean-arch\\src\\CleanArchitectureApp.Infrastructure\\Migrations\\ErpDatabaseContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "src\\CleanArchitectureApp.Infrastructure\\Migrations\\ErpDatabaseContextModelSnapshot.cs",
@@ -200,7 +247,8 @@
               "RelativeToolTip": "src\\CleanArchitectureApp.Infrastructure\\Migrations\\ErpDatabaseContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:49:45.21Z"
+              "WhenOpened": "2025-05-16T06:49:45.21Z",
+              "EditorCaption": ""
             }
           ]
         }
